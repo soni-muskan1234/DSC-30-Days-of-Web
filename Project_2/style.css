@@ -1,0 +1,139 @@
+ .top{
+     background-color: pink;
+     color:black;
+     text-align:center;
+     text-shadow: 2px 2px;
+     text-transform: capitalize;
+     font-size: 30px;
+     
+     margin:0;
+     padding:25px;
+
+}
+ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin:0 20px 0 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .utube{
+
+  }
+
+  
+  table{
+    /* float: left; */
+    margin:auto;
+    height:500px;
+    width:50%;
+    border-collapse: collapse;
+
+  }
+  th,td{
+      text-align:center;
+      text-transform: capitalize;
+      padding: 15px;
+      font-size: 20px;
+      border: 1px solid grey;
+  
+  }
+  th{
+    background-color:dodgerblue;
+    color:black;
+  }
+  #about{
+    
+    width:500px;
+    height:auto;
+    font-size:20px;
+    background-color: bisque;
+    color:rebeccapurple;
+    padding: 20px;
+    margin:0;
+    text-align: center;
+  }
+
+  .flex-container{
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    display:flex;
+    margin:0;
+  }
+  .footer{
+    background-color: #333;
+    color:lavenderblush;
+    text-align: center;
+    text-shadow: 2px 2px;
+    font-size: 20px;
+    font-family: cursive;
+    padding:20px;
+  }
+  .bg{
+    width:100%;
+    margin:0;
+    padding:20px;
+    background-color: #333;
+  }
+  #form
+  { width: 300px; padding: 40px; background: black; text-align: center;margin:auto;
+  }
+  #form h2{
+      color: ivory;font-size: 25px;font-family:'Lucida handwriting';
+  }
+  #form input[type=text],#form input[type=email],
+  #form input[type=number]
+  {border: 2px solid blue; background: none; margin: 15px auto;text-align: center;
+  padding: 14px 10px; width: 200px;color: ivory;border-radius: 24px;font-family: 'papyrus';font-size:20px;outline:none;
+  transition: width 1s;
+      
+
+  }
+  #form input[type=submit]{border: 2px solid green; background: none; margin: 15px auto;text-align: center;
+  padding: 14px 40px;color: ivory;border-radius: 24px;
+      
+
+  }
+  #form input[type=submit]:hover{
+      background:green;
+  }
+  #form input[type=text]:focus,#form input[type=email]:focus,
+  #form input[type=number]:focus
+  {border: 4px groove green; background: none; margin: 15px auto;text-align: center;
+  padding: 14px 10px; width: 260px;color: ivory;border-radius: 24px;font-family: 'papyrus';font-size:15px;
+  font-weight:100;
+      
+
+  }
+  .utube{
+    align-content: middle;
+  }
