@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+	<!-- <link rel="stylesheet" href="bstyle.css"> -->
+	<style>
+		html{
+  background:url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat;
+  background-size: cover;
+  height:100%;
+  background-color: #000;
+}
+* {
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  -o-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+body {
+  color: #C0C0C0;
+  font-family: Arial, san-serif;
+}
+	</style>
+</head>
+<body>
+    
+
+<div id="contact-form">
+	<div>
+		<h1>Nice to Meet You!</h1> 
+		<h4>Have a question or just want to get in touch?</h4> 
+	</div>
+		
+		   <form method="post" action="/">
+			<div>
+		      <label for="name">
+		      	<span class="required">Name: *</span> 
+		      	<input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+		      </label> 
+			</div>
+			<div>
+		      <label for="email">
+		      	<span class="required">Email: </span>
+		      	<input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+		      </label>  
+            </div>
+            <div>
+                <label for="number">
+                    <span class="required">Mobile number: </span>
+                    <input type="number" id="number" name="email" value="" placeholder="Your Mobile number" tabindex="2" required="required" />
+                </label>  
+              </div>
+			
+			
+			<div>		           
+		      <button name="submit" type="submit" id="submit" >SEND</button> 
+			</div>
+		   </form>
+
+    </div>
+    </body>
+    </html>
